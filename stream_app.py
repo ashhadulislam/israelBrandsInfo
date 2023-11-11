@@ -61,7 +61,7 @@ st.image(company_details["logo"],width=200)
 print("Chosen company_details is",company_details)
 
 # st.subheader("Description")
-st.text(company_details["description"])
+st.caption(company_details["description"])
 
 
 st.text("Reason For Boycott")
