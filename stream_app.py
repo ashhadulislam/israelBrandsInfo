@@ -42,13 +42,13 @@ st.header("Details about brands to boycott")
 #         st.write("ROAR!")
 
 categories=list(dic_data.keys())
-category = st.selectbox("Choose category?", categories)
+category = st.selectbox("Choose category.", categories)
 
 print("Chosen category is",category)
 
 companies=dic_data[category]['names']
 
-name = st.selectbox("Choose Company?", companies)
+name = st.selectbox("Companies that we need to boycott.", companies)
 
 print("Chosen company is",name)
 
