@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 import json
 import pickle
 
+import scrape
+
 
 file = open("dic_data.obj",'rb')
 dic_data = pickle.load(file)
@@ -81,3 +83,9 @@ st.caption(company_details["alternatives"])
 st.markdown("""---""")
 
 
+button1 = st.button("Update Info")
+st.caption("Warning: takes 3 minutes")
+if button1:
+    print("clicked the button")
+    scrape.scrape_web()
+    
