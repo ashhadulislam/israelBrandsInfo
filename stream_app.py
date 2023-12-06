@@ -84,42 +84,42 @@ st.text("Alternatives")
 st.caption(company_details["alternatives"])
 st.markdown("""---""")
 
-companies.reverse()
+# companies.reverse()
 
-for name in companies:
+# for name in companies:
     
 
-    print("Chosen company is",name)
+#     print("Chosen company is",name)
 
-    st.header(name)
-
-
-    company_details = dic_companywise[name]
-    st.image(company_details["logo"],width=200)
-
-    print("Chosen company_details is",company_details)
-
-    # st.subheader("Description")
-    st.caption(company_details["description"])
+#     st.header(name)
 
 
-    st.text("Reason For Boycott")
-    st.caption(company_details["reason"])
+#     company_details = dic_companywise[name]
+#     st.image(company_details["logo"],width=200)
+
+#     print("Chosen company_details is",company_details)
+
+#     # st.subheader("Description")
+#     st.caption(company_details["description"])
 
 
-    st.text("Source Of Information")
-    st.caption(company_details["source"])
-    st.markdown("""---""")
+#     st.text("Reason For Boycott")
+#     st.caption(company_details["reason"])
 
 
-    st.text("Action")
-    st.caption(company_details["howToBoycott"])
+#     st.text("Source Of Information")
+#     st.caption(company_details["source"])
+#     st.markdown("""---""")
+
+
+#     st.text("Action")
+#     st.caption(company_details["howToBoycott"])
 
 
 
-    st.text("Alternatives")
-    st.caption(company_details["alternatives"])
-    st.markdown("""---""")
+#     st.text("Alternatives")
+#     st.caption(company_details["alternatives"])
+#     st.markdown("""---""")
 
 
 
